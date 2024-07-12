@@ -3,6 +3,7 @@
 ## 기술
 - **프로그래밍 언어**
   - Java 17
+  - Javascript
 - **프레임워크 / 라이브러리**
   - Spring Framework
   - Hibernate
