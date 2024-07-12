@@ -29,7 +29,7 @@
 
 ## Education
 - Jeju National University - Bachelor's Degree in Tourism Management (2016)
-- Jungmun High School - Graduated from the Department of Information Processing
+- Jungmun High School - Graduated from the Department of Information Processing (2006)
 ## Projects
 ### Construction of Mobile Service for Undergraduate Academic Information at Korea National Open University
 **Duration: February 5 - July 26, 2024**   
@@ -70,6 +70,6 @@
     - **Marketing Coupon Issuance Service:**
         - Developed and managed a system for issuing promotional coupons for marketing purposes
         - Tracked coupon usage and reissued coupons
-    - **AWS Route 53 및 ACM을 사용한 도메인 관리 서비스:**
+    - **Domain Management Service Using AWS Route 53 and ACM:**
         - Registered domains and managed DNS using AWS Route 53
         - Issued and managed SSL certificates using AWS ACM
