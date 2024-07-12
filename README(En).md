@@ -1,3 +1,8 @@
+## Self-Introduction
+I am a backend developer with two years of experience, having previously gained valuable marketing domain knowledge through sales roles in the tourism industry, focusing on customer management. I aspire to develop services that assist those facing marketing challenges through my expertise in development.   
+Currently, I am developing an all-in-one marketing integration solution at Metaflyer, where I have a deep understanding of marketing-related services, technology, and business processes.
+I am passionate about building robust and scalable solutions and continuously learning the latest trends to deliver high-quality results.
+
 ## Experience
 - Metaflyer 2022.11 - Present(1 year 8 months)
 ## Skills
