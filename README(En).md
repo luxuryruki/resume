@@ -1,7 +1,11 @@
 ## Self-Introduction
-I am a backend developer with two years of experience, having previously gained valuable marketing domain knowledge through sales roles in the tourism industry, focusing on customer management. I aspire to develop services that assist those facing marketing challenges through my expertise in development.   
-Currently, I am developing an all-in-one marketing integration solution at Metaflyer, where I have a deep understanding of marketing-related services, technology, and business processes.
-I am passionate about building robust and scalable solutions and continuously learning the latest trends to deliver high-quality results.
+As a backend developer with 2 years of experience in Java & Spring, I have been responsible for developing and maintaining various services in an All-in-One integrated marketing solution platform. In an early-stage startup, I understand the importance of initial design and have been dedicated to implementing scalable and maintainable backend architectures and patterns.
+
+In particular, I optimized complex queries by utilizing Views in Oracle DB and designed RESTful APIs to enhance service performance. Additionally, I have experience managing cloud services using AWS.
+
+I continuously learn the latest trends and strive to deliver high-quality results by applying new technologies to projects. With this passion and experience, I aim to contribute to providing efficient and innovative backend solutions.
+
+
 
 ## Experience
 - Metaflyer 2022.11 - Present(1 year 8 months)
