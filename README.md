@@ -1,86 +1,84 @@
-## 자기소개
-Java & Spring 기반의 2년차 백엔드 개발자로서, All in One 통합 마케팅 솔루션 플랫폼 서비스에서 다양한 서비스 개발 및 유지 보수 업무를 수행했습니다. 초기 스타트업의 특성상 첫 설계가 매우 중요하다고 생각하며, 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 구현하는 데 주력했습니다.   
+## Self-Introduction
+As a backend developer with 2 years of experience in Java & Spring, I have been responsible for developing and maintaining various services in an All-in-One integrated marketing solution platform. In an early-stage startup, I understand the importance of initial design and have been dedicated to implementing scalable and maintainable backend architectures and patterns.
 
-특히, 복잡한 쿼리를 최적화하기 위해 MySql DB에서 View를 활용하고, RESTful API를 설계하여 서비스의 성능을 높였습니다. 또한, AWS를 활용한 클라우드 서비스 관리 경험도 있습니다.   
+In particular, I optimized complex queries by utilizing Views in Oracle DB and designed RESTful APIs to enhance service performance. Additionally, I have experience managing cloud services using AWS.
 
-저는 항상 최신 트렌드를 학습하며, 새로운 기술을 프로젝트에 적용하여 고품질의 결과물을 제공하기 위해 노력하고 있습니다. 이러한 열정과 경험을 바탕으로, 앞으로도 효율적이고 혁신적인 백엔드 솔루션을 제공하는 데 기여하고 싶습니다.
+I continuously learn the latest trends and strive to deliver high-quality results by applying new technologies to projects. With this passion and experience, I aim to contribute to providing efficient and innovative backend solutions.
 
 
 
-## 경력
-- 메타플라이어 2022.11 - 현재(1년 8개월)
-## 기술
-- **프로그래밍 언어**
-  - Java 17
-  - Javascript
-- **프레임워크 / 라이브러리**
-  - Spring Framework
-  - Hibernate
-  - ICE4
-- **데이터베이스**
-  - MySQL
-  - Oracle
-- **도구**
-  - 버전관리
-    - GitHub
-    - GitLab
-  - CI/CD
-    - Jenkins   
-  - 클라우드 서비스
-    - AWS (Amazon Web Services)
-  - 테스트 도구
-    - JUnit
-  - **기타 기술**
-    - API 설계 및 개발
-      - RESTful API
-      - Facebook Graph API
-    - 인메모리 데이터 그리드
-      - Hazelcast  
+## Experience
+- Metaflyer 2022.11 - Present(1 year 8 months)
+## Skills
+- **Programming Languages**
+    - Java 17
+    - Javascript
+- **Frameworks / Libraries**
+    - Spring Framework
+    - Hibernate
+- **Databases**
+    - MySQL
+    - Oracle
+- **Tools**
+    - Version Control
+        - GitHub
+        - GitLab
+    - CI/CD
+        - Jenkins
+    - Cloud Services
+        - AWS (Amazon Web Services)
+    - Testing Tools
+        - JUnit
+    - **Additional Skills**
+        - API Design and Development
+              - RESTful API
+            - Facebook Graph API
+        - In-Memory Data Grid
+            - Hazelcast
 
-## 학력
-- 제주대학교 관광경영학과 졸업(2016)
-- 중문고등학교 정보처리과 졸업(2006)
-## 프로젝트
-### 한국방송통신대학교 학부 학사정보 모바일 서비스 구축
-**기간 : 2024년 2월 5일 - 7월 26일**   
-**사용기술 : Java, Spring Framework, Oracle, RESTful API, SSO, JWT**
-- **SSO(Single Sign On) 연동 프로젝트:**
-    - enPass 3.0을 이용한 SSO 시스템 연동
-    - 인가된 사용자에 한해 JWT발행 및 세션 관리
-    - 브라우저가 이전 사용자 JWT 정보를 캐싱하여, 다른 사용자가 로그인할 때 일시적으로 이전 사용자의 정보가 노출되는 문제가 발생
-        - 로그아웃 시 브라우저 캐시 삭제
-        - 로그아웃 시 사용자 정보가 초기화된 빈 JWT 생성 및 발급
-- **학사정보 서비스 관리 어드민 페이지 모델링 및 구현:**
-    - 메뉴 관리: 메뉴 생성 및 수정, 학과 및 학생의 학적 상태에 따른 접근 권한 관리
-    - 관리자 관리: 직원 DB 정보를 이용한 관리자 검색 및 등록, 수정 및 권한 레벨 부여
-    - 알림/공지 관리: 알림 및 공지사항 등록, 수정, 삭제 관리
-    - 오라클 DB 활용
-        - 복잡한 쿼리를 View로 대체하여 성능 최적화
-        - 민감한 사용자 정보를 제외한 필요한 데이터만 가져와 데이터 보안 강화
+## Education
+- Jeju National University - Bachelor's Degree in Tourism Management (2016)
+- Jungmun High School - Graduated from the Department of Information Processing (2006)
+## Projects
+### Construction of Mobile Service for Undergraduate Academic Information at Korea National Open University
+**Duration: February 5 - July 26, 2024**   
+**Technologies Used: Java, Spring Framework, Oracle, RESTful API, SSO, JWT**
+- **SSO (Single Sign-On) Integration Project:**
+    - Integrated SSO system using enPass 3.0
+    - Issued JWT and managed sessions for authorized users
+    - Addressed the issue where previous user information was temporarily exposed due to browser caching JWT information:
+        - Cleared browser cache on logout
+        - Created and issued an empty JWT with cleared user information on logout
+- **Modeled and Implemented Admin Page for Managing Academic Information Services:**
+    - Menu Management: Created and modified menus, managed access permissions based on academic status of departments and students
+    - Administrator Management: Searched and registered administrators using employee DB information, assigned and modified permission levels
+    - Notification/Announcement Management: Registered, modified, and deleted notifications and announcements
+    - Utilized Oracle DB:
+        - Optimized performance by replacing complex queries with Views
+        - Enhanced data security by retrieving only the necessary data excluding sensitive user information
 
-### 메타플라이어 서비스 개발 및 유지보수
-**기간 : 2022년 11월 01일 - 현재**
-**주요 업무 : 메타플라이어의 서비스 개발 및 유지 보수**   
-**사용기술 : Java, Spring Framework, MySql, Langchain4j, RESTful API, 네이버 커머스API, Hazelcast, SSE, AWS**   
-- **개발에 참여한 주요 서비스:**   
-    - **AI 메시지 & 이미지 생성 서비스:**
-        - LangChain을 활용한 고도화된 AI 메시지 및 이미지 생성 기능 개발   
-        - 성능 최적화:   
-            - RAG(Retrieval-Augmented Generation) 적용을 통해 최적화된 맞춤형 메시지 제공   
-            - 이미지 생성 시간이 길어 발생하는 사용자 대기 문제를 해결하기 위해, 이미지 생성 로직을 백그라운드 작업으로 처리하여 비동기적으로 데이터를 사용자에게 제공, 사용자 경험을 대폭 개선
-    - **네이버 스마트스토어 관리 서비스:**
-        - 사용 기술: RESTful API
-        - 네이버 커머스 솔루션에서 제공하는 판매자 인증 서비스를 활용한 판매자 계정 관리구조 개발
-        - 커머스api를 호출하기위한 인증서버 환경 구축
-        - 솔루션 전용 api연동 (판매자 인증 토근 해석 API, 구독인증 API, 구독해지승인 API 등)
-        - 솔루션 마켓에서 발생한 다양한 이벤트를 수신하는 이벤트 훅 수신구조 구축 및 후처리를 위한 기능 개발
-        - 초당 요청건수 제한에 따른 api 호출 구조 최적화를 위해,Blocking Queue를 활용하여 초당 요청 건수 조절
-    - **GNB 실시간 알림 기능:**
-        - SSE(Server Sent Event)를 활용하여 실시간 알림 기능 구현   
-          특정 그룹의 모든 사용자에게 실시간 알림을 전달하기 위해 Hazelcast ITopic을 사용하여 브로드캐스트 구현, 분산 환경에서 효율적인 메시지 전파로 높은 가용성과 확장성을 보장
-    - **마케팅 쿠폰 발급 서비스:**
-        - 마케팅 목적의 프로모션 쿠폰 발급 및 관리 시스템 개발
-        - 쿠폰 사용 내역 추적 및 재발행
-    - **AWS Route 53 및 ACM을 사용한 도메인 관리 서비스:**
-        - AWS Route 53을 이용한 도메인 등록 및 DNS 관리
-        - AWS ACM을 통한 SSL 인증서 발급 및 관리
+### Development and Maintenance of Metaflyer Service
+**Duration: November 1, 2022 - Present**
+**Key Responsibilities: : Development and maintenance of Metaflyer services**   
+**Technologies Used : Java, Spring Framework, MySql, Langchain4j, RESTful API, Naver Commerce API, Hazelcast, SSE, AWS**
+- **Key Services Developed:**
+    - **AI Message & Image Generation Service:**
+        - Developed advanced AI message and image generation features using LangChain
+        - Performance Optimization:
+            - Applied RAG (Retrieval-Augmented Generation) to provide optimized personalized messages
+            - Improved user experience by handling image generation logic as a background task to provide asynchronous data to users, reducing wait times
+    - **Naver Smart Store Management Service:**
+        - Developed account management structure using seller authentication services provided by Naver Commerce Solution
+        - Established an authentication server environment for calling commerce APIs
+        - Integrated solution-specific APIs (Seller Authentication Token Parsing API, Subscription Authentication API, Subscription Cancellation Approval API, etc.)
+        - Built an event hook receiving structure to process various events occurring in the solution market and developed post-processing functions
+        - Optimized API call structure to comply with rate limits using a Blocking Queue to adjust the number of requests per second
+    - **GNB Real-Time Notification Feature:**
+        - Implemented real-time notification feature using SSE (Server Sent Event)
+          Utilized Hazelcast ITopic to implement broadcasting for efficient message propagation in a distributed environment, ensuring high availability and scalability
+    - **Marketing Coupon Issuance Service:**
+        - Developed and managed a system for issuing promotional coupons for marketing purposes
+        - Tracked coupon usage and reissued coupons
+    - **Domain Management Service Using AWS Route 53 and ACM:**
+        - Registered domains and managed DNS using AWS Route 53
+        - Issued and managed SSL certificates using AWS ACM
